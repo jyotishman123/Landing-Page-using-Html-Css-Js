@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <header>
+         <nav>
+             <div  class="menu">
+                 <img src="menu.png" alt=""   >
+             </div>
+             <div class="logo">
+                 <img src="logo2.png" alt="">
+             </div>
+             <div class="searchbar">
+                 <input type="text" placeholder="search">
+                 <button type="submit" style="border: 0; background-color: transparent;"><img src="search.png" alt=""></button>
+             </div>
+         </nav>
+     </header>
+ <!--sidebar-->
+ <div class="sidebar">
+     <div class="shortcut">
+        <a href="#"><img src="home.png" alt=""><p>Home</p></a>
+        <a href="#"><img src="history.png" alt=""><p>History</p></a>
+        <a href="#"><img src="feeling.png" alt=""><p>Feeling</p></a>
+        <a href="#"><img src="group.png" alt=""><p>Group</p></a>
+        <a href="#"><img src="photo.png" alt=""><p>Photo</p></a>
+        <a href="#"><img src="pic-3.png" alt=""><p>Boost</p></a>
+     </div>
+ </div>
+
+
+
+
+ <!--container-->
+
+  <div class="container">
+      <div class="head">
+          
+      </div>
+      <div class="small-box">
+        <div class="box1">
+            <img src="pic-1.png" alt="">
+            <h1>boost your <span>Idea</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquid dolore quasi iste veritatis sequi veniam molestias. Voluptas voluptates, harum itaque incidunt voluptatibus suscipit laborum!</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="box1">
+            <img src="pic-2.png" alt="">
+            <h1>boost your <span>Skill</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquid dolore quasi iste veritatis sequi veniam molestias. Voluptas voluptates, harum itaque incidunt voluptatibus suscipit laborum!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="box1">
+            <img src="pic-3.png" alt="">
+            <h1>boost your skill <span>Power</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquid dolore quasi iste veritatis sequi veniam molestias. Voluptas voluptates, harum itaque incidunt voluptatibus suscipit laborum!</p>
+            <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="ourvideos">
+          <h1>Our <span>Videos</span> </h1>
+          <div class="videos">
+            <div class="video1">
+                <img src="thumbnail1.png" alt="">
+                <h1>Grab our<span> Course</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit repudiandae similique, quibusdam saepe a doloribus blanditiis reiciendis optio quod!.....</p>
+                <a href="#">Enroll now</a>
+            </div>
+            <div class="video1">
+                <img src="thumbnail2.png" alt="">
+                <h1>Grab our<span> Course</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit repudiandae similique, quibusdam saepe a doloribus blanditiis reiciendis optio quod!.....</p>
+                <a href="#">Enroll now</a>
+            </div>
+            <div class="video1">
+                <img src="thumbnail3.png" alt="">
+                <h1>Grab our<span> Course</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit repudiandae similique, quibusdam saepe a doloribus blanditiis reiciendis optio quod!.....</p>
+                <a href="#">Enroll now</a>
+            </div>
+            <div class="video1 vs">
+                <img src="thumbnail4.png" alt="">
+                <h1>Grab our<span> Course</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit repudiandae similique, quibusdam saepe a doloribus blanditiis reiciendis optio quod!.....</p>
+                <a href="#">Enroll now</a>
+            </div>
+            <div class="video1 vs">
+                <img src="thumbnail5.png" alt="">
+                <h1>Grab our<span> Course</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit repudiandae similique, quibusdam saepe a doloribus blanditiis reiciendis optio quod!.....</p>
+                <a href="#">Enroll now</a>
+            </div>
+            <div class="video1 vs">
+                <img src="thumbnail6.png" alt="">
+                <h1>Grab our<span> Course</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit repudiandae similique, quibusdam saepe a doloribus blanditiis reiciendis optio quod!.....</p>
+                <a href="#">Enroll now</a>
+            </div>
+          </div>
+      </div>
+  </div>
+ <script>
+     var menuicon = document.querySelector('.menu');
+     var sidebar = document.querySelector('.sidebar');
+     var container = document.querySelector('.container');
+
+     menuicon.onclick = function(){
+         sidebar.classList.toggle('small-sidebar')
+         container.classList.toggle('small-container')
+
+     }
+ </script>
+ </body>
+ </html>
